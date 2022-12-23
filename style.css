@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Tahoma;
+}
+.product {
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #ddd;
+  padding: 20px;
+  text-align: center;
+overflow: hidden;
+}
+.product .number {
+  background-color: indianred;
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.product h3 {
+  margin: 15px 0;
+  font-size: 25px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.product p {
+  line-height: 1.6;
+  font-size: 18px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.product:hover .number {
+  box-shadow: 0 0 0 300px indianred;
+}
+.product:hover h3,
+.product:hover p {
+  color: #fff;
+}
